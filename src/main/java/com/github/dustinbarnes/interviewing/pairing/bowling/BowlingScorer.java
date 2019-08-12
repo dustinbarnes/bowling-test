@@ -1,4 +1,4 @@
-package com.dynacron.pairing.bowling;
+package com.github.dustinbarnes.interviewing.pairing.bowling;
 
 import java.util.List;
 
