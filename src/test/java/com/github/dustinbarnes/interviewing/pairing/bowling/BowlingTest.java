@@ -51,12 +51,4 @@ public class BowlingTest
         List<Integer> pins = Arrays.asList(0, 10, 0, 10, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         Assert.assertEquals(45, scorer.scoreGame(pins));
     }
-
-    @Test(expected=InvalidGameException.class)
-    public void testInvalidGame() {
-        List<Integer> pins = Arrays.asList(0, 0, 0, 10, 0, 10);
-        scorer.scoreGame(pins);
-        Assert.fail("Should be invalid");
-    }
-
 }
